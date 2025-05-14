@@ -85,3 +85,32 @@ canvas {
     font-size: 50px;
     top: 210px;
 }
+
+@media only screen and (max-width: 376px) {
+  .maintenance .simg {
+    display: block;
+  }
+
+  .maintenance h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .maintenance .simg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .maintenance .xlimg {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .maintenance .xlimg {
+    display: none;
+  }
+}
